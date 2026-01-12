@@ -1,0 +1,36 @@
+﻿article p:first-child {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.box::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border: 1px solid black;
+}
+
+p.box::after {
+    content: " ➥";
+}
+
+div.box p {
+    color: red;
+}
+
+ul > li {
+    border-top: 5px solid red;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1 ~ p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em;
+}

@@ -1,0 +1,7 @@
+﻿.box {
+    border: 5px solid black;
+    min-block-size: 100px;
+    background-image: url(https://mdn.github.io/shared-assets/images/examples/star.png);
+    background-repeat: repeat;
+    background-color:aqua;
+}

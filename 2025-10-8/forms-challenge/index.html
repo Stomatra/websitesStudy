@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Forms challenge</title>
+    <link href="style.css" rel="stylesheet" />
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="form-section">
+        <h1>
+            We want your feedback!
+        </h1>
+        <header>
+            We're very excited that you visited the <a href="#">little house in the woods</a>,
+            and we want to hear what you thought of it! Please fill in the below
+            sections. You don't need to provide your name or contact details, but
+            if you do, we'll enter you into a <a href="#">prize draw</a> where you'll have a chance
+            to win prizes.
+            <img src="https://mdn.github.io/shared-assets/images/examples/learn/woodland-strip.jpg" alt="" />
+        </header>
+    </div>
+    <form>
+        <div class="form-section">
+            <h2>Facilities</h2>
+            <fieldset>
+                <legend>Was the porridge</legend>
+                <input type="radio" id="hot" name="porridge" value="hot" checked />
+                <label for="hot">Too hot?</label>
+                <input type="radio" id="cold" name="porridge" value="cold" />
+                <label for="cold">Too cold?</label>
+                <input type="radio" id="justright" name="porridge" value="justright" />
+                <label for="justright">Just right?</label>
+            </fieldset>
+            <fieldset>
+                <legend>Were the beds</legend>
+                <input type="radio" id="hard" name="beds" value="hard" checked />
+                <label for="hard">Too hard?</label>
+                <input type="radio" id="soft" name="beds" value="soft" />
+                <label for="soft">Too soft?</label>
+                <input type="radio" id="bedsjustright" name="beds" value="bedsjustright" />
+                <label for="bedsjustright">Just right?</label>
+            </fieldset>
+            <fieldset>
+                <legend>Describe the chairs (select all you agree with)</legend>
+                <input type="checkbox" id="comfy" name="comfy" />
+                <label for="comfy">Comfy</label>
+                <input type="checkbox" id="luxurious" name="luxurious" />
+                <label for="luxurious">Luxurious</label>
+                <input type="checkbox" id="hitec" name="hitec" />
+                <label for="hitec">Hi tec</label>
+                <input type="checkbox" id="pretty" name="pretty" />
+                <label for="pretty">Pretty</label>
+                <input type="checkbox" id="majestic" name="majestic" />
+                <label for="majestic">Majestic</label>
+            </fieldset>
+        </div>
+        <div class="form-section">
+            <h2>About your hosts</h2>
+
+            <fieldset>
+                <legend>Who's your favorite bear?</legend>
+                <select name="bear" id="bear">
+                    <option value="" disabled selected>Please select a bear</option>
+                    <option value="papabear">Papa bear</option>
+                    <option value="mamabear">Mama bear</option>
+                    <option value="junior">Junior</option>
+                    <option value="dozer">Dozer</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Which greeting did you prefer?</legend>
+                <select name="greeting" id="greeting">
+                    <option value="" disabled selected>Please select a greeting</option>
+                    <option value="wave">Wave</option>
+                    <option value="friendlygreeting">Friendly greeting</option>
+                    <option value="growl">Growl</option>
+                    <option value="clawmarks">Claw marks in the door</option>
+                </select>
+            </fieldset>
+        </div>
+        <div class="form-section">
+            <fieldset>
+
+                <h2>Any other feedback?</h2>
+
+                <label for="comment">Give us your comments</label>
+                <textarea id="comment" name="comment" rows="5" cols="33" maxlength="300" placeholder="Enter your comments here..."></textarea>
+            </fieldset>
+        </div>
+        <div class="form-section">
+            <fieldset>
+                <h2>Your details</h2>
+
+                <ul>
+                    <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" />
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" />
+                    </li>
+                    <li>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" />
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <div class="form-section">
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+</html>

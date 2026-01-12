@@ -1,0 +1,13 @@
+﻿.box {
+    width: 500px;
+    height: 80px;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+.box {
+    background-image: url(https://mdn.github.io/shared-assets/images/examples/star.png);
+    background-repeat: no-repeat;
+    background-position:bottom right;
+}

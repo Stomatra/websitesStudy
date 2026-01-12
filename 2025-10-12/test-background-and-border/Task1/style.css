@@ -1,0 +1,14 @@
+﻿.box {
+    /* Add styles here */
+    border: 5px solid black;
+    border-radius: 10px;
+    background-image: url(https://mdn.github.io/shared-assets/images/examples/balloons.jpg);
+    background-size:cover;
+    padding:10px;
+}
+
+h2 {
+    /* Add styles here */
+    color:white;
+    background-color:rgba(0,0,0,50%);
+}

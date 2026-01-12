@@ -1,0 +1,6 @@
+﻿.box {
+    background-image: url(https://mdn.github.io/shared-assets/images/examples/balloons.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-block-size: 10em;
+}

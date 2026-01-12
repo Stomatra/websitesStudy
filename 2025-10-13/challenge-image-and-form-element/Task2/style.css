@@ -1,0 +1,20 @@
+﻿body {
+    font: 1.2em / 1.5 sans-serif;
+}
+
+.my-form {
+    border: 2px solid #000;
+    padding: 5px;
+}
+
+.my-form input[type="search"],[value="Search"]{
+    font-size:inherit;
+    padding:10px;
+}
+
+.my-form input[value="Search"] {
+    background-color: purple;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}

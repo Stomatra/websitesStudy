@@ -1,0 +1,21 @@
+﻿.box {
+    /* Add styles here */
+    border:5px solid lightblue;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:40px;
+    padding:20px;
+    width:250px;
+    margin:20px auto;
+}
+
+h2 {
+    /* Add styles here */
+    text-align: center;
+    background-image:
+        url(https://mdn.github.io/shared-assets/images/examples/star.png),
+        url(https://mdn.github.io/shared-assets/images/examples/star.png);
+    background-position:left center,right center;
+    background-repeat:no-repeat,repeat-y;
+    padding:10px 30px;
+    margin:0;
+}
