@@ -1,0 +1,36 @@
+<style>
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 10px;
+        grid-template-areas:
+            "aa aa"
+            "bb cc"
+            ". dd";
+    }
+
+    .one {
+        grid-area: aa;
+        background-color: lightcoral;
+    }
+
+    .two {
+        grid-area: bb;
+        background-color: lightblue;
+    }
+
+    .three {
+        grid-area: cc;
+        background-color: lightgreen;
+    }
+
+    .four {
+        grid-area: dd;
+        background-color: lightgoldenrodyellow;
+</style>
+<div class="grid">
+    <div class="one">One</div>
+    <div class="two">Two</div>
+    <div class="three">Three</div>
+    <div class="four">Four</div>
+</div>
